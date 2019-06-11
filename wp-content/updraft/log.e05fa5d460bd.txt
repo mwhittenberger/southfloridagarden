@@ -1,0 +1,165 @@
+0000.000 (0) Opened log file at time: Fri, 31 May 2019 15:38:21 +0000 on http://garden.mikethetechninja.com
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.14 WP: 5.2.1 PHP: 7.2.11 (cgi-fcgi, Linux boardwalk 4.14.67-grsec-grsec+ #4 SMP Thu Sep 6 01:23:09 PDT 2018 x86_64) MySQL: 5.7.25-log WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 24.5M | 4M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 351466.3 MB
+0000.008 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.011 (0) Semaphore (fd, wp_fssupk_options) being initialised
+0000.014 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.017 (0) Set semaphore last lock (fd) time to 2019-05-31 15:38:21
+0000.018 (0) Semaphore lock (fd) complete
+0000.029 (0) Backup run: resumption=0, nonce=e05fa5d460bd, file_nonce=e05fa5d460bd begun at=1559317101 (0s ago), job type=backup
+0000.031 (0) Scheduling a resumption (1) after 300 seconds (1559317401) in case this run gets aborted
+0000.042 (0) Checking if we have a zip executable available
+0000.044 (0) Testing: /usr/bin/zip
+0000.057 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.059 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.060 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.061 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.062 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.075 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.077 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.085 (0) Working binary zip found: /usr/bin/zip
+0000.089 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.090 (0) Creation of backups of directories: beginning
+0000.094 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.435 (0) Total entities for the zip file: 261 directories, 1667 files (0 skipped as non-modified), 29.5 MB
+0000.450 (0) Zip: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.458 (0) Zip: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.464 (0) Zip: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.469 (0) Zip: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.475 (0) Zip: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.476 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.2 MB, 1667 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0003.129 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-plugins.zip.tmp: size is now: 2.80 MB
+0003.136 (0) Zip: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-plugins.zip.tmp: 600 files added (on-disk size: 2907.8 KB)
+0003.146 (0) Zip: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-plugins.zip.tmp: 700 files added (on-disk size: 2907.8 KB)
+0003.151 (0) Zip: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-plugins.zip.tmp: 800 files added (on-disk size: 2907.8 KB)
+0003.156 (0) Zip: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-plugins.zip.tmp: 900 files added (on-disk size: 2907.8 KB)
+0003.168 (0) Zip: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-plugins.zip.tmp: 1000 files added (on-disk size: 2907.8 KB)
+0003.178 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.2 MB, 1667 files batched, 501 (1002) added so far); re-opening (prior size: 2907.8 KB)
+0004.293 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-plugins.zip.tmp: size is now: 7.20 MB
+0004.301 (0) Zip: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-plugins.zip.tmp: 1100 files added (on-disk size: 7394.7 KB)
+0004.308 (0) Zip: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-plugins.zip.tmp: 1200 files added (on-disk size: 7394.7 KB)
+0004.319 (0) Zip: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-plugins.zip.tmp: 1300 files added (on-disk size: 7394.7 KB)
+0004.334 (0) Zip: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-plugins.zip.tmp: 1400 files added (on-disk size: 7394.7 KB)
+0004.347 (0) Zip: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-plugins.zip.tmp: 1500 files added (on-disk size: 7394.7 KB)
+0004.351 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.6 MB, 1667 files batched, 501 (1503) added so far); re-opening (prior size: 7394.7 KB)
+0004.691 (0) Zip: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-plugins.zip.tmp: 1600 files added (on-disk size: 8325.2 KB)
+0005.090 (0) Created plugins zip (0) - 8811.8 KB in 5 s (1764.5 KB/s) (sha1: e76d7c5aa7ae74307a177d53e6c29b25aaec8f73, sha256: 33e01b27c30071cbc08dc15879995740d336d403b9bfdb11625c3a5ca40f2b37)
+0005.100 (0) Beginning creation of dump of themes (split every: 400 MB)
+0006.848 (0) Total entities for the zip file: 59 directories, 331 files (0 skipped as non-modified), 15.2 MB
+0006.854 (0) Zip: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0006.865 (0) Zip: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0006.879 (0) Zip: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0010.818 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-themes.zip.tmp: size is now: 7.80 MB
+0011.016 (0) Created themes zip (0) - 7975 KB in 5.9 s (1348.6 KB/s) (sha1: c88cc4a227c18cc3cd155627140984015a66a5b1, sha256: 8e7467fd7a0870c208116dd40b992e55528f9f47604e82ee9b781f947cb3cedf)
+0011.023 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0011.024 (0) Looking for candidates to backup in: /home/southfloridagarden/garden.mikethetechninja.com/wp-content/uploads
+0011.025 (0) finding files: 2019: adding to list (1)
+0011.026 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0011.247 (0) Total entities for the zip file: 2 directories, 294 files (0 skipped as non-modified), 31.8 MB
+0011.253 (0) Zip: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0011.264 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 294 files batched, 198 (198) added so far); re-opening (prior size: 0 KB)
+0014.288 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-uploads.zip.tmp: size is now: 25.20 MB
+0014.386 (0) A useful amount of data was added after this amount of zip processing: 3.5 s (normalised: 3.5 s, rate: 7284.2 KB/s)
+0014.389 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.5368049144745, normalised_time=3.5144349536161, max_time=14.387161970139, data points known=1, old_max_bytes=26214400, new_max_bytes=64388868)
+0014.402 (0) Zip: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-uploads.zip.tmp: 200 files added (on-disk size: 25806.8 KB)
+0016.430 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-uploads.zip.tmp: size is now: 31.90 MB
+0017.163 (0) Created uploads zip (0) - 32655 KB in 6.1 s (5322.3 KB/s) (sha1: 5e3033c707df4c5dd99ce26bb48713a4700ced51, sha256: 9fe4dbc3355b0f5d8d2b703d1008240555d3ec9544f1d64228c0f7348886dd02)
+0017.170 (0) Beginning backup of other directories found in the content directory (index: 0)
+0017.172 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0017.173 (0) Looking for candidates to backup in: /home/southfloridagarden/garden.mikethetechninja.com/wp-content
+0017.174 (0) finding files: themes: skipping: this is the themes directory
+0017.175 (0) finding files: index.php: adding to list (1)
+0017.176 (0) finding files: plugins: skipping: this is the plugins directory
+0017.177 (0) finding files: uploads: skipping: this is the uploads directory
+0017.178 (0) finding files: upgrade: skipping: excluded by options
+0017.179 (0) finding files: updraft: skipping: this is the updraft directory
+0017.188 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0017.217 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-others.zip.tmp: size is now: 0.00 MB
+0017.223 (0) Created others zip (0) - 0.2 KB in 0 s (4.6 KB/s) (sha1: 92173010df4d6458eecef5752564950e2ca51186, sha256: 0d29956676f21619316a013617da0273fbfcd15af95880632eaeda267b8e4c17)
+0017.245 (0) Saving backup status to database (elements: 8)
+0017.253 (0) Beginning creation of database dump (WordPress DB)
+0017.262 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0017.908 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_fssupk_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8  (truncated - 1253 bytes total)
+0017.911 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0017.992 (0) Table wp_fssupk_options: Total expected rows (approximate): 174
+0018.051 (0) Table wp_fssupk_options: Total rows added: 173 in 0.06 seconds
+0018.064 (0) Table wp_fssupk_options: finishing file (backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_options.table.gz - 130.2 KB)
+0018.076 (0) Table wp_fssupk_users: Total expected rows (approximate): 0
+0018.108 (0) Table wp_fssupk_users: Total rows added: 1 in 0.00 seconds
+0018.138 (0) Table wp_fssupk_users: finishing file (backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_users.table.gz - 0.6 KB)
+0018.167 (0) Table wp_fssupk_usermeta: Total expected rows (approximate): 19
+0018.175 (0) Table wp_fssupk_usermeta: Total rows added: 21 in 0.00 seconds
+0018.187 (0) Table wp_fssupk_usermeta: finishing file (backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_usermeta.table.gz - 1.2 KB)
+0018.226 (0) Table wp_fssupk_commentmeta: Total expected rows (approximate): 0
+0018.276 (0) Table wp_fssupk_commentmeta: Total rows added: 0 in 0.03 seconds
+0018.285 (0) Table wp_fssupk_commentmeta: finishing file (backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_commentmeta.table.gz - 0.4 KB)
+0018.295 (0) Table wp_fssupk_comments: Total expected rows (approximate): 0
+0018.305 (0) Table wp_fssupk_comments: Total rows added: 1 in 0.00 seconds
+0018.306 (0) Table wp_fssupk_comments: finishing file (backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_comments.table.gz - 0.7 KB)
+0018.319 (0) Table wp_fssupk_links: Total expected rows (approximate): 0
+0018.350 (0) Table wp_fssupk_links: Total rows added: 0 in 0.02 seconds
+0018.353 (0) Table wp_fssupk_links: finishing file (backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_links.table.gz - 0.4 KB)
+0018.369 (0) Table wp_fssupk_postmeta: Total expected rows (approximate): 1039
+0018.454 (0) Table wp_fssupk_postmeta: Total rows added: 1216 in 0.07 seconds
+0018.475 (0) Table wp_fssupk_postmeta: finishing file (backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_postmeta.table.gz - 16.3 KB)
+0018.503 (0) Table wp_fssupk_posts: Total expected rows (approximate): 199
+0018.563 (0) Table wp_fssupk_posts: Total rows added: 221 in 0.06 seconds
+0018.565 (0) Table wp_fssupk_posts: finishing file (backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_posts.table.gz - 19 KB)
+0018.738 (0) Table wp_fssupk_term_relationships: Total expected rows (approximate): 240
+0018.745 (0) Table wp_fssupk_term_relationships: Total rows added: 263 in 0.00 seconds
+0018.753 (0) Table wp_fssupk_term_relationships: finishing file (backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_term_relationships.table.gz - 1 KB)
+0018.774 (0) Table wp_fssupk_term_taxonomy: Total expected rows (approximate): 11
+0018.789 (0) Table wp_fssupk_term_taxonomy: Total rows added: 13 in 0.00 seconds
+0018.800 (0) Table wp_fssupk_term_taxonomy: finishing file (backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_term_taxonomy.table.gz - 0.5 KB)
+0018.848 (0) Table wp_fssupk_termmeta: Total expected rows (approximate): 0
+0018.904 (0) Table wp_fssupk_termmeta: Total rows added: 0 in 0.04 seconds
+0018.908 (0) Table wp_fssupk_termmeta: finishing file (backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_termmeta.table.gz - 0.4 KB)
+0018.927 (0) Table wp_fssupk_terms: Total expected rows (approximate): 13
+0018.932 (0) Table wp_fssupk_terms: Total rows added: 13 in 0.00 seconds
+0018.934 (0) Table wp_fssupk_terms: finishing file (backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_terms.table.gz - 0.5 KB)
+0018.956 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_options.table.gz (1/12): adding to final database dump
+0018.993 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_users.table.gz (2/12): adding to final database dump
+0019.008 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_usermeta.table.gz (3/12): adding to final database dump
+0019.022 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_commentmeta.table.gz (4/12): adding to final database dump
+0019.030 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_comments.table.gz (5/12): adding to final database dump
+0019.032 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_links.table.gz (6/12): adding to final database dump
+0019.038 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_postmeta.table.gz (7/12): adding to final database dump
+0019.045 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_posts.table.gz (8/12): adding to final database dump
+0019.053 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_term_relationships.table.gz (9/12): adding to final database dump
+0019.083 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_term_taxonomy.table.gz (10/12): adding to final database dump
+0019.086 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_termmeta.table.gz (11/12): adding to final database dump
+0019.094 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db-table-wp_fssupk_terms.table.gz (12/12): adding to final database dump
+0019.114 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db.gz: finished writing out complete database file (160 KB)
+0019.297 (0) Total database tables backed up: 12 (backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db.gz, size: 173017, sha256)
+0019.322 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0019.323 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0019.324 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0019.325 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-others.zip: others: This file has not yet been successfully uploaded: will queue
+0019.326 (0) backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db.gz: db: This file has not yet been successfully uploaded: will queue
+0019.330 (0) Saving backup history. Total backup size: 48.4 MB
+0019.345 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0019.372 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0019.374 (0) No remote despatch: user chose no remote backup service
+0019.375 (0) Recording as successfully uploaded: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-plugins.zip
+0019.382 (0) Recording as successfully uploaded: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-themes.zip
+0019.385 (0) Recording as successfully uploaded: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-uploads.zip
+0019.401 (0) Recording as successfully uploaded: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-others.zip
+0019.409 (0) Recording as successfully uploaded: backup_2019-05-31-1538_South_Florida_Garden_e05fa5d460bd-db.gz
+0019.430 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0019.444 (0) Number of backup sets in history: 1; groups (db): 1
+0019.445 (0) Examining (for databases) backup set with group_id=0, nonce=e05fa5d460bd, datestamp=1559317101 (May 31 2019 15:38:21)
+0019.453 (0) This backup set is the backup set just made, so will not be deleted.
+0019.453 (0) Number of backup sets in history: 1; groups (files): 1
+0019.454 (0) Examining (for files) backup set with nonce=e05fa5d460bd, datestamp=1559317101 (May 31 2019 15:38:21)
+0019.454 (0) This backup set is the backup set just made, so will not be deleted.
+0019.455 (0) This backup set is the backup set just made, so will not be deleted.
+0019.455 (0) This backup set is the backup set just made, so will not be deleted.
+0019.455 (0) This backup set is the backup set just made, so will not be deleted.
+0019.455 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0019.456 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0019.460 (0) Resume backup (e05fa5d460bd, 0): finish run
+0019.468 (0) Decremented the semaphore (fd) by 1
+0019.509 (0) Semaphore (fd) unlocked
+0019.510 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0019.522 (0) No email will/can be sent - the user has not configured an email address.
+0019.523 (0) The backup apparently succeeded and is now complete
